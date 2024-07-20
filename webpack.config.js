@@ -9,7 +9,7 @@ dotenv.config("./.env");
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: process.env.PUBLICPATH,
+    publicPath: "auto",
   },
 
   resolve: {

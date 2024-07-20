@@ -10,8 +10,8 @@ if (window.location.hostname.indexOf(domainNameProd) > -1) {
   urlsServices.BACKENDWS = 'https://fazendainfobasews.fazendainfo.com.br/api/';
   ambiente = 'PROD';
 } else {  
-  urlsServices.SSO = 'https://ssofi.rdca.com.br/';
-  urlsServices.BACKENDWS = 'https://fazendainfobasews.rdca.com.br/api/';
+  urlsServices.SSO = 'https://fazendainfosso.rdca.com.br/';
+  urlsServices.BACKENDWS = 'https://fazendainfossows.rdca.com.br/api/';
   ambiente = 'HOMO';
   if (window.location.hostname.indexOf(domainNameDesv) > -1) {
     //PARA DESENVOLVIMENTO
